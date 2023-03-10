@@ -1,0 +1,54 @@
+.content{
+    text-align: center;
+    overflow: hidden;
+    
+    position: relative;
+      
+    
+}
+
+.help{
+    position: absolute;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    top: 25vh;
+    width: 50%;
+    margin-left: 25%;
+    height: 40vh;
+    border-radius: 50px 500px 50px 500px;
+    transition: 0.5s;
+
+}
+
+.help:hover{
+    border-radius: 500px 20px 500px 20px;
+    transition: 0.5s;
+}
+        
+.content h1 {
+    font-size: 10em;    
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.notFound {
+    font-size: 3em;
+    font-weight: 800;
+    color: rgba(0, 0, 0, 0.6);
+    
+}
+
+
+.content img{    
+    width: 100% !important;
+    height: 100% !important;
+
+   overflow: hidden;
+   
+       
+}
+
+
+
+
+
+
