@@ -1,14 +1,24 @@
 import React from 'react'
 import { useAuth } from '../../contexts/AuthContext'
+import './Auth.css'
+
 
 
 export default function Profile() {
-    const { currentUser } = useAuth()
+  const { currentUser } = useAuth()
 
   return (
-    <span className="profile p-2">
-        Hello {!currentUser.displayName ? currentUser.email : currentUser.displayName.split(' ')[0]}!
-        <img src={currentUser.photoURL} alt={currentUser.displayName} /> 
-    </span>
+    <section className="profile">
+      
+        
+          < div className=' text-center text-white info content-center'>
+            Hello {!currentUser.displayName ? currentUser.email : currentUser.displayName.split(' ')[0]}!
+            <div>            
+              <img src={currentUser.photoURL} alt={currentUser.displayName} /> 
+            </div>
+          </div>
+        
+    </section>
+    
   )
 }

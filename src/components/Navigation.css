@@ -1,5 +1,35 @@
 
+.logOut{
+  content-visibility: hidden !important;
+  background-image: url('../images/Derailed.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 50% !important;
+  height: 3em;
+  width: 3em;
+  
+  transition: .4s !important;
+  overflow: hidden;
+}
 
+
+
+
+.logOut:hover{
+  transition: 0.4s;
+  content-visibility: visible;
+  /* font-size: 0.1em;  this is fun to play with along with making the width alot more*/ 
+  height: 4em;
+  width:4em;
+}
+
+
+/* #profileNav {
+  border-radius: 50% !important;
+  height: 4em !important;
+  width: 4em !important; 
+  
+} */
 
 /* #classicformpage .view {
     background-image: url("http://mdbootstrap.com/img/Photos/Others/images/91.webp");
