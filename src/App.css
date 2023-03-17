@@ -6,3 +6,21 @@
   background-color: black;
   overflow: hidden;
 }
+
+.mainContent{
+  background-image: url(./images/deepPurple.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.ToDoContainer{
+  padding: 0;
+  margin: 0;
+  background-image: url(./images/deepPurple.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100%;
+}
